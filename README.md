@@ -39,7 +39,7 @@ Here we show a map time series get from GPS data obtained with a European road t
 insertion video
 
 However, you should also be aware that this kind of visualization gives easy access to your daily habits.  By using a logical filter such as "from 0:00 am to 5:00 am I stay still and I am at home" our tool allows you to investigate your home location. Or by checking your position during work hours, it informs us about your job and potentially on your way of life.
-
+Currently, our app needs manual treatment, a possible perspective of our work would be to develop a machine-learning algorithm able to detect hotspots often print on this kind of image and so able to infer user residence location.
 
 # Autors
 Adeline, Elsa, Fanny, Fatima, Arnaud
