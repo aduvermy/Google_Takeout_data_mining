@@ -36,7 +36,7 @@ Obviously, our tool is quite fun to remember parts of the world you have visited
 
 Here we show a map time series get from GPS data obtained with a European road trip. 
 
-insertion video
+<img src="./issues_for_readme/timeSeries_roadTrip.gif" width="40" height="40" />
 
 However, you should also be aware that this kind of visualization gives easy access to your daily habits.  By using a logical filter such as "from 0:00 am to 5:00 am I stay still and I am at home" our tool allows you to investigate your home location. Or by checking your position during work hours, it informs us about your job and potentially on your way of life.  
 
