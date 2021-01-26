@@ -33,7 +33,12 @@ pip install
 
 ```
 Obviously, our tool is quite fun to remember parts of the world you have visited. 
-But by using a logical filter such as "from 0:00 am to 5:00 am I stay still and I am in my home" you can also visualize your home location.
+
+Here we show a map time series get from GPS data obtained with a European road trip. 
+
+insertion video
+
+Howewer, we by using a logical filter such as "from 0:00 am to 5:00 am I stay still and I am in my home" you can also visualize your home location.
 Furthermore, by using time series you could follow your daily habits.
 
 
