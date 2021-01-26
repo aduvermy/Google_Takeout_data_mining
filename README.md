@@ -23,7 +23,7 @@ Please, check the content of your Google TakeOut and use our notebooks to invest
 
 # Location History
 
-By using the notebook ```location_history_data_mining.ipynb```, you will be allow to import location_history.json and used it contents to visualized on an interactive map 
+By using the notebook ```location_history_data_mining.ipynb```, you will be allowed to import location_history.json and used its contents to visualize your data on an interactive map.
 
 ### installation required
 ```
