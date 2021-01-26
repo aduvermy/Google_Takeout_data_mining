@@ -21,6 +21,19 @@ The aim of this project is to illustrate how the huge amount of data collected b
 
 Please, check the content of your Google TakeOut and use our notebooks to investigating how collection data could be used by GAAFA or Netflix, or other companies owner of applications you used.
 
+# Location History
+
+By using the notebook ```location_history_data_mining.ipynb```, you will be allow to import location_history.json and used it contents to visualized on an interactive map 
+
+### installation required
+```
+pip install 
+pip install 
+
+```
+Obviously, our tool is quite fun to remember parts of the world you have visited. 
+But by using a logical filter such as "from 0:00 am to 5:00 am I stay still and I am in my home" you can also visualize your home location.
+Furthermore, by using time series you could follow your daily habits.
 
 
 
