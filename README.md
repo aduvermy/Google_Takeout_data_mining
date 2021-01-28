@@ -34,7 +34,7 @@ pip install
 ```
 Obviously, our tool is quite fun to remember parts of the world you have visited. 
 
-Here we show a map time series get from GPS data obtained with a European road trip. 
+Here we show a map time series from GPS data obtained with a European road trip. 
 <p align="center">
 <img src="./issues_for_readme/timeSeries_roadTrip.gif" width="600" height="400" />
 </p>
@@ -50,6 +50,18 @@ Data protection laws around the world aim to give back individuals control over 
 Life in the Information Age is all about making compromises, whether you like it or not. There is no set-it-and-forget-it option on a sliding scale of privacy versus convenience, as the scale itself is constantly changing. As we show previously, we are giving away a lot more data than we realize, and it's not necessarily something we should just accept.
 
 Delete your Google location history and turn it off so that it won't be a problem in the future. Google provides instructions on how to do this, and it's not too difficult. It could impact your search experience in the future as a lot of Google features work well because they remember where you have been. If you don't want to lose all your location data, you can always keep the location turned on to keep it recording, then download it through Google Takeout and clear your history multiple times a year.
+
+# Sources
+
+packages:
+    [jupyter](https://jupyter.org/)
+    [pandas](https://pandas.pydata.org/)
+    [folium](https://python-visualization.github.io/folium/)
+
+others:
+    [data privacy](https://dataprivacymanager.net/5-things-you-need-to-know-about-data-privacy/)
+    [User experience](https://knowledge.wharton.upenn.edu/article/the-user-experience-why-data-not-just-design-hits-the-sweet-spot/)
+
 
 # Autors
 Adeline, Elsa, Fanny, Fatima, Arnaud
