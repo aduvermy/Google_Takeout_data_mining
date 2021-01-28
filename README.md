@@ -77,8 +77,8 @@ packages:
     
 
 others:  
-    - [data privacy](https://dataprivacymanager.net/5-things-you-need-to-know-about-data-privacy/)   
-    - [User experience](https://knowledge.wharton.upenn.edu/article/the-user-experience-why-data-not-just-design-hits-the-sweet-spot/) 
+    - [data privacy](https://dataprivacymanager.net/5-things-you-need-to-know-about-data-privacy/)  
+    - [User experience](https://knowledge.wharton.upenn.edu/article/the-user-experience-why-data-not-just-design-hits-the-sweet-spot/)  
     - [data collection](https://clevertap.com/blog/mobile-data-collection/)  
     - [General Data Protection Regulation](https://gdpr-info.eu/)
 
