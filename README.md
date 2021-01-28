@@ -22,9 +22,19 @@ This project aims to illustrate how the huge amount of data collected by Google,
 
 Please, check the content of your Google TakeOut and use our notebooks to investigating how collection data could be used by GAAFA or Netflix, Youtube, or other companies owner of applications you use.
 
+# How to launch a notebook
+
+```
+pip install jupyter #installation
+jupyter-notebook file.ipynb #run file.ipynb
+```
+Replace file by the notebook path.
+
 # Location History
 
 By using the notebook ```location_history_data_mining.ipynb```, you will be allowed to import location_history.json and used its contents to visualize your data on an interactive map.
+
+
 
 ### installation required
 ```
@@ -53,14 +63,14 @@ Delete your Google location history and turn it off so that it won't be a proble
 
 # Sources
 
-packages:
-    [jupyter](https://jupyter.org/)  
-    [pandas](https://pandas.pydata.org/)  
-    [folium](https://python-visualization.github.io/folium/)  
+packages:  
+    - [jupyter](https://jupyter.org/)  
+    - [pandas](https://pandas.pydata.org/)  
+    - [folium](https://python-visualization.github.io/folium/)  
 
-others:
-    [data privacy](https://dataprivacymanager.net/5-things-you-need-to-know-about-data-privacy/)   
-    [User experience](https://knowledge.wharton.upenn.edu/article/the-user-experience-why-data-not-just-design-hits-the-sweet-spot/)  
+others:  
+    - [data privacy](https://dataprivacymanager.net/5-things-you-need-to-know-about-data-privacy/)   
+    - [User experience](https://knowledge.wharton.upenn.edu/article/the-user-experience-why-data-not-just-design-hits-the-sweet-spot/)  
 
 
 # Autors
