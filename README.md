@@ -38,9 +38,12 @@ By using the notebook ```location_history_data_mining.ipynb```, you will be allo
 
 ### installation required
 ```
-pip install 
-pip install 
-
+pip install pandas
+pip install numpy
+pip install matplotlib
+pip install seaborn
+pip install folium
+pip install jupyter-dash
 ```
 Obviously, our tool is quite fun to remember parts of the world you have visited. 
 
@@ -65,12 +68,19 @@ Delete your Google location history and turn it off so that it won't be a proble
 
 packages:  
     - [jupyter](https://jupyter.org/)  
-    - [pandas](https://pandas.pydata.org/)  
+    - [pandas](https://pandas.pydata.org/)   
+    - [numpy](https://numpy.org/)  
+    - [matplotlib](https://matplotlib.org/)  
+    - [seaborn](https://seaborn.pydata.org/)  
     - [folium](https://python-visualization.github.io/folium/)  
+    - [jupyter-dash](https://github.com/plotly/jupyter-dash)  
+    
 
 others:  
     - [data privacy](https://dataprivacymanager.net/5-things-you-need-to-know-about-data-privacy/)   
-    - [User experience](https://knowledge.wharton.upenn.edu/article/the-user-experience-why-data-not-just-design-hits-the-sweet-spot/)  
+    - [User experience](https://knowledge.wharton.upenn.edu/article/the-user-experience-why-data-not-just-design-hits-the-sweet-spot/) 
+    - [data collection](https://clevertap.com/blog/mobile-data-collection/)
+    - [General Data Protection Regulation](https://gdpr-info.eu/)
 
 
 # Autors
