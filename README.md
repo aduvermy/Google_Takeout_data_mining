@@ -54,13 +54,13 @@ Delete your Google location history and turn it off so that it won't be a proble
 # Sources
 
 packages:
-    [jupyter](https://jupyter.org/)
-    [pandas](https://pandas.pydata.org/)
-    [folium](https://python-visualization.github.io/folium/)
+    [jupyter](https://jupyter.org/)  
+    [pandas](https://pandas.pydata.org/)  
+    [folium](https://python-visualization.github.io/folium/)  
 
 others:
-    [data privacy](https://dataprivacymanager.net/5-things-you-need-to-know-about-data-privacy/)
-    [User experience](https://knowledge.wharton.upenn.edu/article/the-user-experience-why-data-not-just-design-hits-the-sweet-spot/)
+    [data privacy](https://dataprivacymanager.net/5-things-you-need-to-know-about-data-privacy/)   
+    [User experience](https://knowledge.wharton.upenn.edu/article/the-user-experience-why-data-not-just-design-hits-the-sweet-spot/)  
 
 
 # Autors
