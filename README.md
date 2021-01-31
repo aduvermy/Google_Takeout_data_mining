@@ -87,7 +87,13 @@ YouTube is an American online video-sharing platform, created in February 2005. 
 pip install pandas
 pip install numpy
 pip install matplotlib
-
+pip install keras
+pip install sklearn
+pip install wordcloud
+pip install PIL
+pip install tdlextract
+pip install nltk
+pip install beautifulsoup4
 ```
 
 By using the same approach as Browser History our notebook ```YT_data_mining.ipynb``` allows you to investigate your centers of interest-based on your Youtube research.
@@ -139,7 +145,7 @@ By using a Kmeans clustering, we separate the data into 2 clusters:
 It allows you to find out which parts of the week you are most active.  
     
 <p align="center">
-<img src="./issues_for_readme/fit_activity_clustering.png" width="600" height="400" />
+<img src="./issues_for_readme/fit_activity_clustering.png" width="600" height="300" />
 </p>
 
 Combine with location history this kind of data might be used to even better understand user's habits.
