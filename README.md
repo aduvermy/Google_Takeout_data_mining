@@ -81,7 +81,7 @@ In this kind of visualization, word size is proportional to the frequency on whi
 Obviously, by using our notebook and by building your word cloud you will observe your centers of interest.
 All your researches are stored by Google in such a way it could be recovering a website in your browser history but also tracking your centers of interest and finally do pop up ad links to your hobbits on your favorite social network.
 
-If you looking for an alternative to Google to surf on the internet, Qwant might your new friend. Qwant is a French search engine, launched in July 2013 and operated from Paris. It is one of the few EU-based search engines with its own indexing engine. It claims that it does not employ user tracking or personalize search results to avoid trapping users in a filter bubble. The search engine is available in 26 languages.
+If you looking for an alternative to Google to surf on the internet, Qwant might be your new friend. Qwant is a French search engine, launched in July 2013 and operated from Paris. It is one of the few EU-based search engines with its own indexing engine. It claims that it does not employ user tracking or personalize search results to avoid trapping users in a filter bubble. The search engine is available in 26 languages.
 
 
 # Youtube history
