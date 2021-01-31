@@ -90,7 +90,7 @@ pip install matplotlib
 
 ```
 
-By using the same approach as Browser History our notebook ``̀`YT_data_mining.ipynb`` allows you to investigate your centers of interest-based on your Youtube research.
+By using the same approach as Browser History our notebook ```YT_data_mining.ipynb``` allows you to investigate your centers of interest-based on your Youtube research.
 
 <p align="center">
 <img src="./issues_for_readme/wordcloud.png" width="600" height="400" />
@@ -133,10 +133,10 @@ pip install numpy
 pip install matplotlib
 
 ```
-By using a Kmeans clustering, we separate the data into 2 clusters: 
-    - high activity
-    - low activity
-It allows you to find out which parts of the week you are most active.
+By using a Kmeans clustering, we separate the data into 2 clusters:  
+    - high activity  
+    - low activity  
+It allows you to find out which parts of the week you are most active.  
     
 <p align="center">
 <img src="./issues_for_readme/fit_activity_clustering.png" width="600" height="400" />
