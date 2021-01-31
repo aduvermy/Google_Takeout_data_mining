@@ -32,7 +32,8 @@ Replace file by the notebook path.
 
 # Gmail
 
-Gmail is a free email service developed by Google. Google's mail servers automatically scan emails for multiple purposes, including to filter spam and malware, and to add context-sensitive advertisements next to emails. By using ```gmail_data_mining.ipynb``` on you ```gmail.json```, you will better understand the process underlying the filtering of your mails.
+Gmail is a free email service developed by Google. Google's mail servers automatically scan emails for multiple purposes, including to filter spam and malware, and to add context-sensitive advertisements next to emails.  
+By using ```gmail_data_mining.ipynb``` on your ```gmail.json```, you will better understand the process underlying the filtering of your mails.
 
 ### installation required
 ```
