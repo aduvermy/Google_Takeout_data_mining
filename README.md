@@ -32,7 +32,7 @@ Replace file by the notebook path.
 
 # Gmail
 
-Gmail is a free email service developed by Google. Google's mail servers automatically scan emails for multiple purposes, including to filter spam and malware, and to add context-sensitive advertisements next to emails. By using ```gmail_data_mining.ipynb```, you will better understand the process underlying the filtering of your mails.
+Gmail is a free email service developed by Google. Google's mail servers automatically scan emails for multiple purposes, including to filter spam and malware, and to add context-sensitive advertisements next to emails. By using ```gmail_data_mining.ipynb``` on you ```gmail.json```, you will better understand the process underlying the filtering of your mails.
 
 ### installation required
 ```
@@ -54,8 +54,9 @@ Of course, by collecting them they also have access to potential private or sens
 
 # Browser history
 
-Google is the most used search engine on the World Wide Web across all platforms, with 92.16% market share as of December 2020, handling more than 5.4 billion searches each day. By downloading your Google Takeout you will find it in ```Browser_history.json```. 
-By using ```Browser_history_data_mining.ipynb``` and ```parser_MonActivite.py```, you will be able to easily observe your frequent research.
+Google is the most used search engine on the World Wide Web across all platforms, with 92.16% market share as of December 2020, handling more than 5.4 billion searches each day.  
+By downloading your Google Takeout you will find it in ```Browser_history.json```.  
+By using ```Browser_history_data_mining.ipynb``` and ```parser_MonActivite.py```, you will be able to easily observe your frequent research.  
 
 ### installation required
 ```
@@ -64,8 +65,8 @@ pip install numpy
 pip install matplotlib
 
 ```
+To visualize your frequent research, you could build a word cloud, as shown below. In this kind of visualization, word size is proportional to the frequency on which you search a word/expression in your browser.
 
-To visualized your frequent research, you could build a word cloud, as shown below. On this kind of visualization word size is proportionnal to the frequence on wich you search a word/expression in you browser.
 <p align="center">
 <img src="./issues_for_readme/word_cloud.png" width="600" height="400" />
 </p>
@@ -120,21 +121,27 @@ Currently, our app needs manual treatment so a possible perspective of our work 
 
 # Google Fit
 
-Fit is a fitness community connecting the best fitness trainers in the world with people looking to improve their health. The app provides fun and free fitness challenges, coaching and training. 
+Fit is a fitness community connecting fitness trainers in the world with people looking to improve their health. The app provides a fun and free fitness challenges, coaching, and training.  
+This app is less used than apps previously studied. We choose to investigate the contents of data linked to this app to better understand how alternative apps are involved in data collection.
+
 
 ### installation required
 ```
 pip install pandas
 pip install numpy
 pip install matplotlib
-pip install seaborn
-pip install folium
-pip install jupyter-dash
-```
 
+```
+By using a Kmeans clustering, we separate the data into 2 clusters: 
+    - high activity
+    - low activity
+It allows you to find out which parts of the week you are most active.
+    
 <p align="center">
 <img src="./issues_for_readme/fit_activity_clustering.png" width="600" height="400" />
 </p>
+
+Combine with location history this kind of data might be used to even better understand user's habits.
 
 
 # Discussion
