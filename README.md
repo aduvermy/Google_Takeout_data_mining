@@ -49,7 +49,7 @@ The results are shown below. This is a confusion matrix obtained on a test datas
 </p>
 Regarding prediction metrics (accuracy, recall, and precision), our predictions are quite good. Notice that, results would be even better if we had a more exhaustive training dataset.
 
-By collecting your emails, Google improves its training dataset and is now be able to filter Spam but also promotion or social networks.
+By collecting your emails, Google improves its training dataset and is now be able to filter spam but also promotion or social networks mails.
 Of course, by collecting them they also have access to potential private or sensible contents.
 
 # Browser history
@@ -143,6 +143,7 @@ It allows you to find out which parts of the week you are most active.
 </p>
 
 Combine with location history this kind of data might be used to even better understand user's habits.
+Furthermore, alternative apps are often own and develop by a startup or little companies. These companies cannot afford Google financial resources to protect data collected, potentially leading to data leaks ([as shown here](https://www.businessinsider.fr/appli-fitness-polar-expose-donnees-localisation-2018)).
 
 
 # Discussion
