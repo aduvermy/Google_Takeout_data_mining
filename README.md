@@ -65,7 +65,8 @@ pip install numpy
 pip install matplotlib
 
 ```
-To visualize your frequent research, you could build a word cloud, as shown below. In this kind of visualization, word size is proportional to the frequency on which you search a word/expression in your browser.
+To visualize your frequent research, you could build a word cloud, as shown below.  
+In this kind of visualization, word size is proportional to the frequency on which you search a word/expression in your browser.
 
 <p align="center">
 <img src="./issues_for_readme/word_cloud.png" width="600" height="400" />
