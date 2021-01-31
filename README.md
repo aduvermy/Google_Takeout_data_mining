@@ -44,7 +44,6 @@ pip install deep-translator
 pip install scikit-learn
 pip install seaborn
 pip install nltk
-
 ```
 
 Here we used, NLP algorithm to see if we could filter potential new spam received in a box mail. 
@@ -151,7 +150,6 @@ pip install plotly_express
 pip install ipython-autotime
 pip install sklearn
 pip install sklearn.preprocessing
-
 ```
 By using a Kmeans clustering, we separate the data into 2 clusters:  
     - high activity  
