@@ -142,9 +142,15 @@ This app is less used than apps previously studied. We choose to investigate the
 
 ### installation required
 ```
-pip install pandas
-pip install numpy
-pip install matplotlib
+apt install gdal-bin python3-gdal python3-gdal --quiet
+apt install python3-rtree --quiet
+pip install git+git://github.com/geopandas/geopandas.git --quiet
+pip install descartes --quiet
+pip install geopy
+pip install plotly_express
+pip install ipython-autotime
+pip install sklearn
+pip install sklearn.preprocessing
 
 ```
 By using a Kmeans clustering, we separate the data into 2 clusters:  
@@ -170,23 +176,10 @@ Delete your Google location history and turn it off so that it won't be a proble
 
 # Sources
 
-packages:  
-    - [jupyter](https://jupyter.org/)  
-    - [pandas](https://pandas.pydata.org/)   
-    - [numpy](https://numpy.org/)  
-    - [matplotlib](https://matplotlib.org/)  
-    - [seaborn](https://seaborn.pydata.org/) 
-    - [scikit-learn]()
-    - [nltk]()
-    - [folium](https://python-visualization.github.io/folium/)  
-    - [jupyter-dash](https://github.com/plotly/jupyter-dash)  
-    
-
-other links:  
-    - [data privacy](https://dataprivacymanager.net/5-things-you-need-to-know-about-data-privacy/)  
-    - [User experience](https://knowledge.wharton.upenn.edu/article/the-user-experience-why-data-not-just-design-hits-the-sweet-spot/)  
-    - [data collection](https://clevertap.com/blog/mobile-data-collection/)  
-    - [General Data Protection Regulation](https://gdpr-info.eu/)
+- [data privacy](https://dataprivacymanager.net/5-things-you-need-to-know-about-data-privacy/)  
+- [User experience](https://knowledge.wharton.upenn.edu/article/the-user-experience-why-data-not-just-design-hits-the-sweet-spot/)  
+- [data collection](https://clevertap.com/blog/mobile-data-collection/)  
+- [General Data Protection Regulation](https://gdpr-info.eu/)
 
 
 # Autors
