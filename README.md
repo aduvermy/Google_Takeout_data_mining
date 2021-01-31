@@ -38,9 +38,12 @@ By using ```gmail_data_mining.ipynb``` on your ```gmail.json```, you will better
 ### installation required
 ```
 pip install pandas
-pip install numpy
 pip install matplotlib
-
+pip install mailbox
+pip install deep-translator
+pip install scikit-learn
+pip install seaborn
+pip install nltk
 ```
 
 Here we used, NLP algorithm to see if we could filter potential new spam received in a box mail. 
@@ -56,7 +59,7 @@ Of course, by collecting them they also have access to potential private or sens
 # Browser history
 
 Google is the most used search engine on the World Wide Web across all platforms, with 92.16% market share as of December 2020, handling more than 5.4 billion searches each day.  
-By downloading your Google Takeout you will find it in ```Browser_history.json```.  
+By downloading your Google Takeout you will find it in ```MonActivité.html```.  
 By using ```Browser_history_data_mining.ipynb``` and ```parser_MonActivite.py```, you will be able to easily observe your frequent research.  
 
 ### installation required
@@ -64,7 +67,9 @@ By using ```Browser_history_data_mining.ipynb``` and ```parser_MonActivite.py```
 pip install pandas
 pip install numpy
 pip install matplotlib
-
+pip install texthero 
+pip install nltk
+pip install beautifulsoup4
 ```
 To visualize your frequent research, you could build a word cloud, as shown below.  
 In this kind of visualization, word size is proportional to the frequency on which you search a word/expression in your browser.
@@ -89,7 +94,7 @@ pip install pandas
 pip install numpy
 pip install matplotlib
 pip install keras
-pip install sklearn
+pip install scikit-learn
 pip install wordcloud
 pip install PIL
 pip install tdlextract
@@ -97,7 +102,8 @@ pip install nltk
 pip install beautifulsoup4
 ```
 
-By using the same approach as Browser History our notebook ```YT_data_mining.ipynb``` allows you to investigate your centers of interest-based on your Youtube research.
+By using the same approach as Browser History our notebook ```YT_data_mining.ipynb``` allows you to investigate your centers of interest-based on your Youtube research. 
+File concerned by this notebook is ```watch_history.json```. Careful, YT.jpg need to be in the same directory as the notebook.
 
 <p align="center">
 <img src="./issues_for_readme/wordcloud.png" width="600" height="400" />
@@ -135,10 +141,15 @@ This app is less used than apps previously studied. We choose to investigate the
 
 ### installation required
 ```
-pip install pandas
-pip install numpy
-pip install matplotlib
-
+apt install gdal-bin python3-gdal python3-gdal --quiet
+apt install python3-rtree --quiet
+pip install git+git://github.com/geopandas/geopandas.git --quiet
+pip install descartes --quiet
+pip install geopy
+pip install plotly_express
+pip install ipython-autotime
+pip install sklearn
+pip install sklearn.preprocessing
 ```
 By using a Kmeans clustering, we separate the data into 2 clusters:  
     - high activity  
@@ -163,21 +174,10 @@ Delete your Google location history and turn it off so that it won't be a proble
 
 # Sources
 
-packages:  
-    - [jupyter](https://jupyter.org/)  
-    - [pandas](https://pandas.pydata.org/)   
-    - [numpy](https://numpy.org/)  
-    - [matplotlib](https://matplotlib.org/)  
-    - [seaborn](https://seaborn.pydata.org/)  
-    - [folium](https://python-visualization.github.io/folium/)  
-    - [jupyter-dash](https://github.com/plotly/jupyter-dash)  
-    
-
-other links:  
-    - [data privacy](https://dataprivacymanager.net/5-things-you-need-to-know-about-data-privacy/)  
-    - [User experience](https://knowledge.wharton.upenn.edu/article/the-user-experience-why-data-not-just-design-hits-the-sweet-spot/)  
-    - [data collection](https://clevertap.com/blog/mobile-data-collection/)  
-    - [General Data Protection Regulation](https://gdpr-info.eu/)
+- [data privacy](https://dataprivacymanager.net/5-things-you-need-to-know-about-data-privacy/)  
+- [User experience](https://knowledge.wharton.upenn.edu/article/the-user-experience-why-data-not-just-design-hits-the-sweet-spot/)  
+- [data collection](https://clevertap.com/blog/mobile-data-collection/)  
+- [General Data Protection Regulation](https://gdpr-info.eu/)
 
 
 # Autors
