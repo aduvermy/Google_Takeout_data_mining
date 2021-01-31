@@ -32,16 +32,80 @@ Replace file by the notebook path.
 
 # Gmail
 
-Gmail is a free email service developed by Google. Google's mail servers automatically scan emails for multiple purposes, including to filter spam and malware, and to add context-sensitive advertisements next to emails. By using ```gmail_data_mining.ipynb```, you will better understand the process underlying the filtering of your mails.
-Here we used, NLP algorithm in order to learn how to filter potential new spam received in your boxmail.
+Gmail is a free email service developed by Google. Google's mail servers automatically scan emails for multiple purposes, including to filter spam and malware, and to add context-sensitive advertisements next to emails.  
+By using ```gmail_data_mining.ipynb``` on your ```gmail.json```, you will better understand the process underlying the filtering of your mails.
 
-By collecting your emails.
+### installation required
+```
+pip install pandas
+pip install numpy
+pip install matplotlib
+
+```
+
+Here we used, NLP algorithm to see if we could filter potential new spam received in a box mail. 
+The results are shown below. This is a confusion matrix obtained on a test dataset after supervised learning.
+<p align="center">
+<img src="./issues_for_readme/confusion_matrix.png" width="500" height="500" />
+</p>
+Regarding prediction metrics (accuracy, recall, and precision), our predictions are quite good. Notice that, results would be even better if we had a more exhaustive training dataset.
+
+By collecting your emails, Google improves its training dataset and is now be able to filter spam but also promotion or social networks mails.
+Of course, by collecting them they also have access to potential private or sensible contents.
+
+# Browser history
+
+Google is the most used search engine on the World Wide Web across all platforms, with 92.16% market share as of December 2020, handling more than 5.4 billion searches each day.  
+By downloading your Google Takeout you will find it in ```Browser_history.json```.  
+By using ```Browser_history_data_mining.ipynb``` and ```parser_MonActivite.py```, you will be able to easily observe your frequent research.  
+
+### installation required
+```
+pip install pandas
+pip install numpy
+pip install matplotlib
+
+```
+To visualize your frequent research, you could build a word cloud, as shown below.  
+In this kind of visualization, word size is proportional to the frequency on which you search a word/expression in your browser.
+
+<p align="center">
+<img src="./issues_for_readme/word_cloud.png" width="600" height="400" />
+</p>
+
+Obviously, by using our notebook and by building your word cloud you will observe your centers of interest.
+All your researches are stored by Google in such a way it could be recovering a website in your browser history but also tracking your centers of interest and finally do pop up ad links to your hobbits on your favorite social network.
+
+If you looking for an alternative to Google to surf on the internet, Qwant might your new friend. Qwant is a French search engine, launched in July 2013 and operated from Paris. It is one of the few EU-based search engines with its own indexing engine. It claims that it does not employ user tracking or personalize search results to avoid trapping users in a filter bubble. The search engine is available in 26 languages.
+
+
+# Youtube history
+
+YouTube is an American online video-sharing platform, created in February 2005. Similarly to your web browser, you can access your youtube history by downloading your TakeOut. 
+
+### installation required
+```
+pip install pandas
+pip install numpy
+pip install matplotlib
+pip install keras
+pip install sklearn
+pip install wordcloud
+pip install PIL
+pip install tdlextract
+pip install nltk
+pip install beautifulsoup4
+```
+
+By using the same approach as Browser History our notebook ```YT_data_mining.ipynb``` allows you to investigate your centers of interest-based on your Youtube research.
+
+<p align="center">
+<img src="./issues_for_readme/wordcloud.png" width="600" height="400" />
+</p>
 
 # Location History
 
 By using the notebook ```location_history_data_mining.ipynb```, you will be allowed to import location_history.json and used its contents to visualize your data on an interactive map.
-
-
 
 ### installation required
 ```
@@ -61,6 +125,32 @@ Here we show a map time series from GPS data obtained with a European road trip.
 However, you should also be aware that this kind of visualization gives easy access to your daily habits.  By using a logical filter such as "from 0:00 am to 5:00 am I stay still and I am at home" our tool allows you to investigate your home location. Or by checking your position during work hours, it informs us about your job and potentially on your way of life.  
 
 Currently, our app needs manual treatment so a possible perspective of our work would be to develop a machine-learning algorithm able to detect hotspots often print on this kind of image and so able to infer informative locations that might be useful for better understand the user and objectively adapt his experience.
+
+
+# Google Fit
+
+Fit is a fitness community connecting fitness trainers in the world with people looking to improve their health. The app provides a fun and free fitness challenges, coaching, and training.  
+This app is less used than apps previously studied. We choose to investigate the contents of data linked to this app to better understand how alternative apps are involved in data collection.
+
+
+### installation required
+```
+pip install pandas
+pip install numpy
+pip install matplotlib
+
+```
+By using a Kmeans clustering, we separate the data into 2 clusters:  
+    - high activity  
+    - low activity  
+It allows you to find out which parts of the week you are most active.  
+    
+<p align="center">
+<img src="./issues_for_readme/fit_activity_clustering.png" width="600" height="300" />
+</p>
+
+Combine with location history this kind of data might be used to even better understand user's habits.
+Furthermore, alternative apps are often own and develop by a startup or little companies. These companies cannot afford Google financial resources to protect data collected, potentially leading to data leaks ([as shown here](https://www.businessinsider.fr/appli-fitness-polar-expose-donnees-localisation-2018)).
 
 
 # Discussion
