@@ -30,6 +30,13 @@ jupyter-notebook file.ipynb #run file.ipynb
 ```
 Replace file by the notebook path.
 
+# Gmail
+
+Gmail is a free email service developed by Google. Google's mail servers automatically scan emails for multiple purposes, including to filter spam and malware, and to add context-sensitive advertisements next to emails. By using ```gmail_data_mining.ipynb```, you will better understand the process underlying the filtering of your mails.
+Here we used, NLP algorithm in order to learn how to filter potential new spam received in your boxmail.
+
+By collecting your emails.
+
 # Location History
 
 By using the notebook ```location_history_data_mining.ipynb```, you will be allowed to import location_history.json and used its contents to visualize your data on an interactive map.
