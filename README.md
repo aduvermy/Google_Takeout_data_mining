@@ -35,11 +35,38 @@ Replace file by the notebook path.
 Gmail is a free email service developed by Google. Google's mail servers automatically scan emails for multiple purposes, including to filter spam and malware, and to add context-sensitive advertisements next to emails. By using ```gmail_data_mining.ipynb```, you will better understand the process underlying the filtering of your mails.
 Here we used, NLP algorithm in order to learn how to filter potential new spam received in your boxmail.
 
+<p align="center">
+<img src="./issues_for_readme/confusion_matrix.png" width="600" height="400" />
+</p>
+
 By collecting your emails.
+
+# Browser history
+
+```Browser_history_data_mining.ipynb``` and ```parser_MonActivite.py```
+
+<p align="center">
+<img src="./issues_for_readme/word_cloud.png" width="600" height="400" />
+</p>
+
+
+# Youtube history
+
+blabka ``̀`YT_data_mining.ipynb`` hhsjhshj
+
+<p align="center">
+<img src="./issues_for_readme/wordcloud.png" width="600" height="400" />
+</p>
 
 # Location History
 
 By using the notebook ```location_history_data_mining.ipynb```, you will be allowed to import location_history.json and used its contents to visualize your data on an interactive map.
+
+# Fit app
+
+<p align="center">
+<img src="./issues_for_readme/fit_activity_clustering.png" width="600" height="400" />
+</p>
 
 
 
